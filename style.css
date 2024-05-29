@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+:root {
+    --font: "Montserrat";
+    --text: #F8F8FF;
+    --primarycolor: #191919;
+    --background: #070707;
+    --nav: #2a2a2a;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--primarycolor);
+    color: var(--text);
+    font-family: var(--font);
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: var(--nav);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.h1p {
+    background-color: var(--background);
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding: 1em;
+    margin-top: 0;
+    margin-bottom: -70px;
+}
+
+p {
+    text-transform: capitalize;
+    padding: 32px;
+    margin-bottom: 2.5em;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.photo img {
+    width: 100%;
+    max-width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+
+.photo img:hover {
+    transform: scale(1.2);
+    background-color: #F8F8FF;
+}
+
+.photo::after {
+    content: "";
+    width: 620px;
+}
