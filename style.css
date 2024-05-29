@@ -82,9 +82,18 @@ p {
     transition: transform .2s;
 }
 
-.photo img:hover {
-    transform: scale(1.2);
-    background-color: #F8F8FF;
+@media screen and (max-width: 500px) {
+    .photo img:active {
+      transform: scale(1.2);
+      background-color: #F8F8FF;
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    .photo img:hover {
+      transform: scale(1.2);
+      background-color: #F8F8FF;
+    }
 }
 
 .photo::after {
