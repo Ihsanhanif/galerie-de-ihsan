@@ -24,8 +24,8 @@ body {
 
 .header {
     position: relative;
-    bottom: 0px;
-    left: 0 px;
+    bottom: 0;
+    left: 0;
     width: 100%;
     padding: 20px 50px;
     background: var(--nav);
@@ -44,7 +44,7 @@ body {
 
 .navi:hover {
     color: var(--yellow);
-    text-decoration: solid;
+    text-decoration: underline;
 }
 
 .interface {
@@ -65,14 +65,24 @@ body {
 .interface p {
     font-size: 140%;
     display: flex;
-    justify-content: center;
+    margin-left: 10px;
 }
 
+@media screen and (max-width: 500px) {
+    .interface h1 {
+        font-size: 300%;
+    }
+
+    .interface p {
+        font-size: 110%;
+    }
+}
 
 .btn-gallery {
-    background-color:var(--yellow);
+    background-color: var(--yellow);
     text-decoration: none;
-    color: #000000;
+    color: #000;
     padding: 10px 60px;
     border-radius: 4px;
+    margin-left: 10px;
 }

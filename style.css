@@ -58,10 +58,16 @@ h1 {
     margin-bottom: -70px;
 }
 
-p {
+.h1p p {
     text-transform: capitalize;
     padding: 32px;
-    margin-bottom: 1em;
+}
+
+#ps {
+    font-size: x-small;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-bottom: 2rem;
 }
 
 .photo {
@@ -83,17 +89,17 @@ p {
     transition: transform .2s;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1024px) {
     .photo img:active {
-      transform: scale(1.2);
-      background-color: #F8F8FF;
+        transform: scale(1.2);
+        background-color: #F8F8FF;
     }
-  }
+}
 
-  @media screen and (min-width: 500px) {
+@media screen and (min-width: 1024px) {
     .photo img:hover {
-      transform: scale(1.2);
-      background-color: #F8F8FF;
+        transform: scale(1.2);
+        background-color: #F8F8FF;
     }
 }
 
