@@ -19,6 +19,7 @@ body {
     color: var(--text);
     font-family: var(--font);
     margin: 0;
+    overflow: hidden;
 }
 
 .header {
@@ -26,12 +27,22 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 50px;
+    padding: 20px 30px;
     background: var(--nav);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.header img {
+    width: 4%;
+}
+
+.header a {
+    font-size: larger;
+    display: inline-flex;
+    align-items: center;
 }
 
 .navi {
