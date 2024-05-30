@@ -6,7 +6,6 @@
   - [Captured](#Captured)
   - [Links](#links)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
 
 ### Captured
 
