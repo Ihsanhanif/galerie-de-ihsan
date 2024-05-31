@@ -88,6 +88,8 @@ h1 {
     max-width: 1400px;
     margin: 0 auto;
     padding: 10px;
+    background-size: cover;
+    background-position: center;
 }
 
 .photo img {
@@ -97,6 +99,8 @@ h1 {
     object-fit: cover;
     border-radius: 10px;
     transition: transform .2s;
+    object-fit: cover;
+    object-position: center;
 }
 
 @media screen and (max-width: 1024px) {
