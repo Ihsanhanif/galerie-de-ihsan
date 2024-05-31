@@ -17,7 +17,7 @@
 
 ### Links
 
-- Live Site URL: [galeriedeihsan](https://galeriedeihsan.vercel.app/))
+- Live Site URL:  [galeriedeihsan](https://galeriedeihsan.vercel.app/)
 
 ## Author
 
